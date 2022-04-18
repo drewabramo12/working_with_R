@@ -47,3 +47,6 @@ Lot 2's population was not significant with a p-value of 0.06.
 
 Lot 3's population was significant with a p-value of 0.04.
 
+## Study Design: MechaCar vs Competition
+
+To test the performance of the MechaCar compared to its counterpart, I would arrange a study that tested two populations (MechaCar and Competitor) of equal size (1500) This study would follow mpg averages in the same city for over a year and kept track of refill frequency, quantity and miles traveled to determine an mpg value for each of the 3000 cars. This study would then go to try to prove the MechaCar has better mpg in the city. The null hypothesis would be that the MechaCar does not have a significant difference in mpg compared to the competitor. The alternative hypothesis would be that there is a significant difference between the two make's mpg. A single sample t test will be run on each car's mpg to remove any bias of random chance that the mpg's may be effected by lifestyle choices (further research can be done to delve into these factors after the initial study using a linear regression). A two sample t test would need to be run on each population of car's mpg over a year's span. This will help to show that there is potentially a reason for why the two car's mpg may be different.
