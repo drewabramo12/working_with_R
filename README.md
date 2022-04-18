@@ -24,12 +24,26 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 The variance of 62.29 falls within an acceptable value due to being lower than 100.
 
+
+![Lot Variance](https://github.com/drewabramo12/working_with_R/blob/main/Resources/Lot_Var.PNG)
+
+By looking at each individual lot however we see that Lot 3 does have a variance 170 which is higher than the acceptable level of 100. All other lots were far below 100.
+
 ## T-Tests on Suspension Coils
 
 ![Ttest](https://github.com/drewabramo12/working_with_R/blob/main/Resources/ttest.PNG)
 
+The cumulative lots were not significant with a p-value of 0.06.
+
 ![Lot1 Ttest](https://github.com/drewabramo12/working_with_R/blob/main/Resources/Lot1.PNG)
+
+Lot 1's population was not significant with a p-value of 0.06.
 
 ![Lot2 Ttest](https://github.com/drewabramo12/working_with_R/blob/main/Resources/Lot2.PNG)
 
+Lot 2's population was not significant with a p-value of 0.06.
+
 ![Lot3 Ttest](https://github.com/drewabramo12/working_with_R/blob/main/Resources/Lot3.PNG)
+
+Lot 3's population was significant with a p-value of 0.04.
+
